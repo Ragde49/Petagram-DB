@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.softcame.petagram.Acercade">
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar">
+    </include>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/wolfme"
+        android:elevation="9dp"
+        android:id="@+id/ivWolfme"
+        android:layout_below="@+id/miActionBar"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MSI LSCA Edgar A Cantu Moreno"
+        android:layout_below="@+id/ivWolfme"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvNombre"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chihuaua, Chihuahua Mexico"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvNombre"
+        android:id="@+id/tvCiudad"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Licenciado en Sistemas Computacionales Administrativos"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvCiudad"
+        android:id="@+id/tvCarrera"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maestro en Sistemas de Informacion"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvCarrera"
+        android:id="@+id/tvmaestria"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="39 años"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvmaestria"
+        android:id="@+id/tvedad"/>
+</RelativeLayout>
